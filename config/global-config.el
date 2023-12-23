@@ -1,4 +1,4 @@
-;; Enable projectile mode 
+;; Enable projectile mode
 (projectile-global-mode)
 
 ;; Enable interactive do mode
@@ -18,10 +18,20 @@
 ;; Prevent emacs insert tab instead of space
 (setq-default indent-tabs-mode nil)
 
+;; Enable all the icons package
 (require 'all-the-icons)
+;; All the icon enable for dired mode
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
+;; Hide dired's details
 (add-hook 'dired-mode-hook 'dired-hide-details-mode)
 
+;; Enable neotree
+(require 'neotree)
 
+;; Enable smartparent
+(smartparens-global-mode)
+
+;; Enable sudo-edit
+(require 'sudo-edit)
 
 (provide 'global-config)

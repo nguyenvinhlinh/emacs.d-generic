@@ -4,4 +4,7 @@ ido-vertical-mode
 smex
 all-the-icons
 all-the-icons-dired
+neotree
+smartparens
+sudo-edit
 
