@@ -1,10 +1,13 @@
-dracula
-projectile
-ido-vertical-mode
-smex
-all-the-icons
-all-the-icons-dired
-neotree
-smartparens
-sudo-edit
+* Emacs.d for generic purpose
 
+* Package List
+- dracula
+- projectile
+- magit
+- ido-vertical-mode
+- smex
+- all-the-icons
+- all-the-icons-dired
+- neotree
+- smartparens
+- sudo-edit
