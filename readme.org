@@ -11,3 +11,6 @@
 - neotree
 - smartparens
 - sudo-edit
+
+* How to run?
+Go to emacs and open file named ~emacs-dependency-installation.el~. Then, do ~M-x eval-region~, or do ~M-x eval-buffer~.
