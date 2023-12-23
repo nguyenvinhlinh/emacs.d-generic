@@ -1,0 +1,7 @@
+dracula
+projectile
+ido-vertical-mode
+smex
+all-the-icons
+all-the-icons-dired
+
