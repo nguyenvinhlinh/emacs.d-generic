@@ -31,6 +31,10 @@
 ;; Enable smartparent
 (smartparens-global-mode)
 
+;; Dired mode
+(setq dired-recursive-copies 'always)
+(setq dired-recursive-deletes 'always)
+
 ;; Enable sudo-edit
 (require 'sudo-edit)
 
